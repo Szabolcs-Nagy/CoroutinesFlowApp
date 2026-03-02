@@ -379,7 +379,7 @@ private fun UseCase(type: String, examples: List<String>) {
             fontSize = 14.sp
         )
         examples.forEach { example ->
-            BulletPoint(example, fontSize = 12.sp)
+            BulletPoint(example, fontSize = 12)
         }
     }
 }
